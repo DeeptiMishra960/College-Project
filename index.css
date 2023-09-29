@@ -1,0 +1,196 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+nav {
+    background-color: rgb(71, 89, 249);
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0px;
+margin: 0;
+display: flex;
+text-align: right;
+float: right;
+}
+
+nav li {
+margin-inline-end: 80px;
+text-align: right;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+nav a {
+color: azure;
+font-style: bold;
+
+}
+
+.logo img {
+width: 100px; /* Adjust the width as needed */
+height: auto; /* Automatically adjusts the height to maintain aspect ratio */
+margin-right: 20px;
+}
+
+#image1{
+width: 30px; /* Adjust the width as needed for uniform size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin: 0 10px;
+}
+#image2{
+width: 40px; /* Adjust the width as needed for uniform size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin: 0 10px;
+}
+#image3{
+width: 40px; /* Adjust the width as needed for uniform size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin: 0 10px;
+}
+#image4{
+width: 40px; /* Adjust the width as needed for uniform size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    margin: 0 10px;
+}
+
+
+.logo-container {
+    display: flex; /* Display logos in a row */
+    align-items: center; /* Vertically center logos */
+    justify-content: center; /* Horizontally center logos */
+}
+  
+td {
+    text-align: center; /* Center-align the content within each table cell horizontally */
+    vertical-align: middle; /* Center-align the content vertically within each table cell */
+    padding: 10px; /* Optional: Add padding to control spacing within cells */
+}
+
+.info {
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    
+}
+
+
+  
+.quiz-container {
+    text-align: center;
+    padding: 1px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   
+    background-color: rgb(239, 234, 234);
+
+    
+        width: 500px; /* Set a width for each container if needed */
+        height: 200px; /* Set a height for each container if needed */
+        margin-right: 10px; /* Optional: Add some spacing between containers */
+      
+}
+
+.html-container{
+    background-color: bisque;    /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.CSS-container{
+    background-color: paleturquoise;   /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.Javascript{
+    background-color: pink;        /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.python-container{
+    background-color: rgb(241, 241, 156);    /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.java-container{
+    background-color: rgb(244, 193, 244);    /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.c-container{
+    background-color: rgb(175, 192, 255);   /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.c2-container{
+    background-color: rgb(151, 255, 151);   /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.MySql-container{
+    background-color: rgb(255, 166, 190);  /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.PHP-container{
+    background-color: rgb(105, 214, 214);  /*CHANGE BOX COLOR*/
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.QuizQuest-container {
+
+    display: flex;
+}
+
+.QuizQuest-container2{
+    display: flex;
+}
+
+.QuizQuest-container3{
+    display: flex;
+}
+
+button{
+     
+        display: inline-block;
+        padding: 10px 20px; /* Adjust padding for button size */
+        font-size: 13px; /* Adjust font size */
+        background-color: green; /* Button background color */
+        color: #fff; /* Text color */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Change cursor on hover */
+    }
+
+
+    .testimonial-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px;
+        text-align: center;
+        border: #000;
+        border-style: groove;
+        background-color: azure;
+    }
+    
+    .testimonial {
+        background-color: #5e89ff;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    blockquote {
+        font-size: 18px;
+        font-style: italic;
+        margin: 0;
+    }
+=======
+
+>>>>>>> 12cf3061b274157692f32fcd84788ad05fde4c7a
+=======
+
+>>>>>>> 12cf3061b274157692f32fcd84788ad05fde4c7a
