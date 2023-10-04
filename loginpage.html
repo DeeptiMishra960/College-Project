@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizQuest</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  
+    <div class="login-container">
+        <h2>Log in</h2> 
+        <form>
+            <div class="form-group">
+                
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+          
+            <div class="password-container">
+                <input type="password" id="password" class="password-input" placeholder="Password" required>
+                <i class="fas fa-eye-slash eye-icon" id="togglePassword"></i>
+            </div>
+        
+            <script>
+                const passwordInput = document.getElementById('password');
+                const togglePasswordButton = document.getElementById('togglePassword');
+        
+                togglePasswordButton.addEventListener('click', function () {
+                    if (passwordInput.type === 'password') {
+                        passwordInput.type = 'text';
+                        togglePasswordButton.classList.remove('fa-eye-slash');
+                        togglePasswordButton.classList.add('fa-eye');
+                    } else {
+                        passwordInput.type = 'password';
+                        togglePasswordButton.classList.remove('fa-eye');
+                        togglePasswordButton.classList.add('fa-eye-slash');
+                    }
+                });
+            </script>
+            <br>
+                <div class="button-con">
+                <button class="button">Log in</button>
+                </div>
+                <div class="signin">
+                    <p>Already have an account? <a href="signup.html" target="_blank">Sign in</a></p>
+                    </div>
+                    
+        </form>
+</body>
+</html>
