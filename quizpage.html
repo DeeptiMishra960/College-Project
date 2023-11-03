@@ -1,0 +1,131 @@
+!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quizpage.css">
+   </head> 
+   <body>
+      <!--nav bar-->
+      <nav class="nav-bar">
+        <div class="logo">
+            <!-- <img src="https://quizizz.com/wf/assets/62fa6419161d3a641f681ceb_Logo.svg" alt="Logo" width="100" height="60">  -->
+            <img src="Images/Screenshot 2023-09-29 152240.png" alt="Logo" width="200">
+        </div>
+
+        <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Quizzes</a></li>
+            <!-- <li><a href="#">Signup</a></li> -->
+            <!-- <li><a href="#">Login</a></li> -->
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <div class="nav-button ">
+            <button class="nav-button-left btn">
+                Signup
+            </button>
+
+            <button class="nav-button-right btn">
+                Login
+            </button>
+        </div>
+    </nav>
+
+    <!--herosection-->
+
+    <div id="quiz-container">
+        <div class="question-page">
+            <h1>Question 1</h1>
+            <p>What does HTML stand for? </p>
+            <form id="question1-form">
+                <div class="answer-box">
+                    <input type="radio" name="q1" value="a" id="choice-a"> <label for="choice-a">a) Home Tool Markup Language</label><br>
+                </div>
+                <div class="answer-box">
+                    <input type="radio" name="q1" value="b" id="choice-b"> <label for="choice-b">b)  Hyper Text Markup Language</label><br>
+                </div>
+                <div class="answer-box">
+                    <input type="radio" name="q1" value="c" id="choice-c"> <label for="choice-c">c) Hyperlinks and Text Markup Language</label><br>
+                </div>
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+<!-- heroimagw
+    <div class="image">
+    <img src="C:\Users\deept\OneDrive\Desktop\html tutorial\Untitled design.jpg"> 
+    </div> -->
+        
+    
+
+
+    <!-- footer 1 -->
+   <footer class="bg-[#23272a] w-full footer-section">
+    <div class="max-w-[1200px] pt-24 pb-10 mx-auto footer-div">
+        <div class="flex flex-row gap-[100px] px-5 footer-inner-div">
+            <!-- left section -->
+            <div class="flex flex-col gap-[24px] w-[20%] footer-left-section">
+                <p class="font-['GintoNord'] font-[800] text-[#5865f2] text-[32px] leading-[30.4px]">
+                    Stay <br>
+                    Connected
+                </p>
+
+                <div class="flex text-[24px] text-white gap-7">
+                    <img src="Images/facebook-icon.svg" alt="" width="30">
+                    <img src="Images/instagram-icon.svg" alt="" width="30">
+                    <img src="Images/linkedin-icon.svg" alt="" width="30">
+                    <img src="Images/twitter-icon.svg" alt="" width="30">
+                </div>
+            </div>
+
+            <!-- right section -->
+            <div class="w-[75%] flex justify-around flex-wrap footer-right-section">
+
+                <div class="text-white font-['ggSans'] w-fit flex flex-col gap-[10px] font-[400]">
+                    <span class="text-[#5865f2] text-[16px] py-10px footer-right-section-title">Company</span>
+                    <p class="hover:underline cursor-pointer">About</p>
+                    <p class="hover:underline cursor-pointer">Jobs</p>
+                    <!-- <p class="hover:underline cursor-pointer">Branding</p> -->
+                    <p class="hover:underline cursor-pointer">Newsroom</p>
+                </div>
+
+                <div class="text-white font-['ggSans'] w-fit flex flex-col gap-[10px] font-[400]">
+                    <span class="text-[#5865f2] text-[16px] py-10px footer-right-section-title">Resources</span>
+                    <p class="hover:underline cursor-pointer">College</p>
+                    <p class="hover:underline cursor-pointer">Support</p>
+                    <!-- <p class="hover:underline cursor-pointer">Safety</p> -->
+                    <p class="hover:underline cursor-pointer">Blog</p>
+                    <p class="hover:underline cursor-pointer">Feedback</p>
+                    <!-- <p class="hover:underline cursor-pointer">Developers</p> -->
+                    <!-- <p class="hover:underline cursor-pointer">Streamkit</p> -->
+                    <p class="hover:underline cursor-pointer">Creators</p>
+                </div>
+
+                <div class="text-white font-['ggSans'] w-fit flex flex-col gap-[10px] font-[400]">
+                    <span class="text-[#5865f2] text-[16px] py-10px footer-right-section-title">Policies</span>
+                    <p class="hover:underline cursor-pointer">Terms</p>
+                    <p class="hover:underline cursor-pointer">Privacy</p>
+                    <p class="hover:underline cursor-pointer">Cookie Settings</p>
+                    <p class="hover:underline cursor-pointer">Guidelines</p>
+                    <p class="hover:underline cursor-pointer">Acknowledgements</p>
+                    <p class="hover:underline cursor-pointer">Licences</p>
+                    <p class="hover:underline cursor-pointer">Moderation</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- line -->
+        <div class="bg-[#5865f2] w-[100%] h-[2px] mt-9 footer-line"></div>
+
+        <div class="flex flex-row justify-between mt-6 footer-logo">
+            <!-- <img src="Imagess/logo.svg" alt=""> -->
+            <p style=" --tw-text-opacity: 1;
+            color: rgb(119 124 133/var(--tw-text-opacity)); text-align: center;">
+                QuizQuest is optimized for Quizes and Learning. Examples might be simplified to improve learning and Quizes. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using QuizQuest, you agree to have read and accepted our <u>terms of use, cookie and privacy policy</u>..
+            </p>
+        </div>
+    </div>
+</footer>
