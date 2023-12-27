@@ -101,64 +101,74 @@ nav a:hover{
 
 
 
-
-
 .container {
     font-family: Arial, sans-serif;
     background-image: url('5453471.jpg');
-    margin: 10px; /* Decreased margin */
-    padding: 20px; /* Decreased padding */
+    margin: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 70vh;
     text-align: center;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
     font-size: 36px;
     margin-bottom: 30px;
+    color: #090707;
 }
 
 .score {
     font-size: 24px;
     font-weight: bold;
-    color: #9b6fdc; /* Green color for the score */
+    color: #9b6fdc;
 }
 
 .feedback {
     font-size: 18px;
     margin-top: 15px;
-    color: #333;
+    color: #000000;
 }
 
 .buttons {
-    margin-top: 20px; /* Decreased margin-top */
+    margin-top: 20px;
     display: flex;
     gap: 20px;
 }
 
 .tryAgainButton,
 .backButton {
-    padding: 15px 20px; /* Decreased padding */
+    width: 200px; /* Fixed width for both buttons */
+    
+    padding: 15px;
     font-size: 18px;
     cursor: pointer;
     border: none;
     border-radius: 15px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .tryAgainButton,
 .backButton {
-    background-color:#9b6fdc;
+    background-color: #9b6fdc;
     color: #fff;
 }
 
 .tryAgainButton:hover,
 .backButton:hover {
-    background-color: #9b6fdc;
+    background-color: #7158a3;
+    color: #fff;
 }
+
+
+
+
+
+
 
 
 
