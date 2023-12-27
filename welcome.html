@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizQuest</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Display the signed-up person's name above the welcome heading -->
+        <div class="signed-up-info">
+            <p>Welcome, <span id="signedUpName"></span>!</p>
+        </div>
+
+        <h1>Welcome to Quizizz</h1>
+        
+        <div class="quotes">
+            <blockquote>
+                "Learning is a treasure that will follow its owner everywhere."
+            </blockquote>
+
+            <blockquote>
+                "The more that you read, the more things you will know. The more that you learn, the more places you'll go."
+            </blockquote>
+        </div>
+
+        <div class="buttons">
+            <a href="about.html" class="aboutButton">About Us</a>
+            <a href="explore.html" class="exploreButton">Explore Quizzes</a>
+        </div>
+        </div>
+    
+    <div class="cmnt">
+    <div class="leave-reply">
+        <h2>Leave a Reply</h2>
+        <form action="#" method="post">
+            <textarea id="comment" name="comment" placeholder="Your Comment" rows="4" required></textarea>
+
+            <div class="button-container">
+                <button type="submit">Submit Comment</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    
+    <script>
+        // Assume you have a variable storing the signed-up person's name
+        var signedUpName = "ram";
+
+        // Update the span element with the signed-up person's name
+        document.getElementById('signedUpName').innerText = signedUpName;
+    </script>
+
+
+
+    </body>
+    </html>
